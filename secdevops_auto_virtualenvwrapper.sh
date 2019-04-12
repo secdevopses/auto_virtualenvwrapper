@@ -7,7 +7,7 @@
 #       source /path/to/secdevops_auto_virtualenvwrapper.sh
 #
 
-_auto_virtualenvwrapper() {
+function _auto_virtualenvwrapper() {
 
     _VENV_NAME=$(basename `pwd`)
     _VENV_PATH=$WORKON_HOME/$_VENV_NAME
